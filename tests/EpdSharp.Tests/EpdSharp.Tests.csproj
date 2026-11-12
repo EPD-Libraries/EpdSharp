@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\EpdSharp.Lib.Sarc\EpdSharp.Lib.Sarc.csproj" />
+    <ProjectReference Include="..\..\src\EpdSharp.Lib.Sarc\EpdSharp.Lib.Sarc.csproj" />
   </ItemGroup>
 
 </Project>

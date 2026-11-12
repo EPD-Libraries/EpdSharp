@@ -3,6 +3,6 @@
     <Project Path="tests/EpdSharp.Benchmarks/EpdSharp.Benchmarks.csproj" />
     <Project Path="tests/EpdSharp.Tests/EpdSharp.Tests.csproj" />
   </Folder>
-  <Project Path="EpdSharp.Lib.Sarc/EpdSharp.Lib.Sarc.csproj" />
+  <Project Path="src/EpdSharp.Lib.Sarc/EpdSharp.Lib.Sarc.csproj" />
   <Project Path="src/EpdSharp.Console/EpdSharp.Console.csproj" />
 </Solution>
