@@ -1,4 +1,6 @@
 ﻿using System.Reflection;
+using BenchmarkDotNet.Running;
+using EpdSharp.Benchmarks.FileFormats;
 
 var version = typeof(Program).Assembly
     .GetCustomAttribute<AssemblyInformationalVersionAttribute>()?
@@ -10,5 +12,7 @@ Console.WriteLine($"""
     """);
 
 switch (args) {
-    
+    case [nameof(SarcViewBenchmarks)]:
+        BenchmarkRunner.Run<SarcViewBenchmarks>();
+        break;
 }

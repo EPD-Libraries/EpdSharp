@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="BenchmarkDotNet" Version="0.15.8" />
+    <PackageReference Include="SarcLibrary" Version="3.3.5" />
   </ItemGroup>
   
   <ItemGroup>
@@ -17,6 +18,10 @@
              CopyToOutputDirectory="PreserveNewest" />
     <Content Include="Assets\**"
              CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\EpdSharp.Lib.Sarc\EpdSharp.Lib.Sarc.csproj" />
   </ItemGroup>
 
 </Project>
