@@ -19,4 +19,12 @@
     <Using Include="Xunit"/>
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Include="Assets\**" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\EpdSharp.Lib.Sarc\EpdSharp.Lib.Sarc.csproj" />
+  </ItemGroup>
+
 </Project>
