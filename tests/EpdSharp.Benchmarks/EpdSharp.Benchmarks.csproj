@@ -7,4 +7,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="0.15.8" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Content Include="..\EpdSharp.Tests\Assets\**"
+             LinkBase="Assets"
+             CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="Assets\**"
+             CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
 </Project>
